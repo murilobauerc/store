@@ -2,11 +2,11 @@ const data = {
   stock: [
     {
       id: 1,
-      amount: 3
+      amount: 0
     },
     {
       id: 2,
-      amount: 5
+      amount: 0
     },
     {
       id: 3,
@@ -14,7 +14,8 @@ const data = {
     },
     {
       id: 4,
-      amount: 1
+      amount: 0
+      // previous amount: 1
     },
     {
       id: 5,

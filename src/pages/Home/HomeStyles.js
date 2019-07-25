@@ -10,3 +10,7 @@ export const ProductList = styled.div`
     flex-direction: column;
   }
 `;
+
+export const ZeroStock = styled.div`
+  color: red;
+`;
