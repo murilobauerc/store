@@ -7,18 +7,17 @@ const ProductDetails = props => {
   const [car, setCar] = useState([]);
 
   const product = data.products.find(product => product.id == id);
+  // Todo: If we have products without stock highlight a phrase with red color
   const findAmountByProduct = data.stock.find(stock => stock.id == id);
   /* SELECT * FROM DATA.STOCK STOCK
       LEFT JOIN DATA.PRODUCTS PRODUCT ON PRODUCT.ID = STOCK.ID
   */
-  console.log("product", product);
-  console.log("find amount by product", findAmountByProduct);
+  console.log(product);
 
   const handleSubmit = () => {
-    // todo: add the product in the store car
+    // todo: add the product in the cart market
   };
-
-  // todo: button to add in the Car
+  // todo: button to add in the cart market
   return (
     <>
       <span> {product.title} </span>

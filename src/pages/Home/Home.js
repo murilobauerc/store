@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import data from "../../data";
 import { ProductList } from "./HomeStyles";
 
-//  /* Todo: If we have products without stock highlight a phrase with red color
-// New feature: Display the products amount */
 const Home = () => {
   return (
     <ProductList>
